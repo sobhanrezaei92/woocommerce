@@ -12,7 +12,7 @@ wcapi = API(
 
 
 def print_hi():
-    print(wcapi.get("products", params={'slug': ''}).json())
+    print(wcapi.get("productss", params={'slug': ''}).json())
 
     pass
 
